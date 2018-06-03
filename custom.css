@@ -14,6 +14,180 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+/********************************************************************************************/
+/* Begin customizations by jpdillingham                                                       */
+/********************************************************************************************/
+
+:root {
+  --primary: #61AFEF;
+  --text: #d3cdc1;
+  --background: #23272f;
+  --background-elevated: #2d3139;
+  --border-bright: #23272f;
+  --border-dim: #2d3139;
+  --scrollbar-border: #23272f;
+}
+
+.p-channel_sidebar__channel--selected, 
+.p-channel_sidebar__link--selected, 
+.p-channel_sidebar__channel--selected:link, 
+.p-channel_sidebar__link--selected:link, 
+.p-channel_sidebar__channel--selected:visited, 
+.p-channel_sidebar__link--selected:visited, 
+.p-channel_sidebar__channel--selected:hover, 
+.p-channel_sidebar__link--selected:hover, 
+.p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+  background: #204461 !important;
+}
+
+.p-channel_sidebar__channel, 
+.p-channel_sidebar__link {
+  border-radius: 0 !important;
+}
+
+.c-mrkdwn__code {
+  color: #d72b3f !important
+}
+
+.flex_content_scroller {
+  background-color: #2f516d !important;
+}
+
+#msg_input, 
+#primary_file_button {
+  border-color: #2d3139 !important;
+}
+
+div.c-message.c-message--light.c-message--hover {
+  color: #fff !important;
+  background-color: #282C34 !important;
+}
+
+/* channel background */
+div.c-virtual_list__scroll_container {
+  background-color: var(--background) !important;
+}
+
+/* channel details panel */
+#channel_page_scroller {
+  background-color: #282C34 !important;
+}
+
+div.c-message_attachment.c-message_attachment {
+  color: #7c7b7b !important;
+}
+
+span.c-message_attachment__pretext {
+  color: #7c7b7b !important;
+}
+
+/* message text */
+span.c-message__body,
+a.c-message__sender_link,
+span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
+div.p-message_pane__foreword__description span {
+  color: #d3cdc1 !important;
+}
+
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+  z-index: 0;
+}
+
+pre.special_formatting {
+  background-color: #222 !important;
+  color: #8f8f8f !important;
+  border: solid;
+  border-width: 1 px !important;
+}
+
+/* @username mentions */
+a.c-member_slug.c-member_slug--link, 
+button.c-mrkdwn__subteam, 
+.c-member_slug--mention, .c-member_slug {
+  color: #61AFEF !important; 
+  background-color: #212b2f !important;
+}
+
+.c-member_slug--mention, .c-member_slug--mention:hover {
+  color: #61AFEF !important; 
+  background-color: #212b2f !important;
+}
+
+.c-member_slug--link, .c-member_slug--link:hover {
+  color: #61AFEF !important; 
+  background-color: #212b2f !important;
+}
+
+/* @subteam mentions */
+button.c-mrkdwn__subteam {
+
+  background-color: #212b2f !important;
+}
+
+/* member name display */
+span.c-unified_member__display-name {
+  color: #ABB2BF !important
+}
+
+/* day divider */
+hr.c-message_list__day_divider {
+  background: #abb2bf !important;
+}
+
+.c-message_list__day_divider__line {
+  border-top: 1px solid var(--border-dim) !important
+}
+
+/* day divider pill */
+div.c-message_list__day_divider__label__pill{
+  background: var(--border-dim) !important;
+  color: var(--primary) !important;
+} 
+
+div.client_channels_list_container {
+  box-shadow: none !important;
+}
+
+.channel_page_section, #channel_page_scroller {
+  --background-elevated: var(--background) !important;
+  background: var(--background) !important
+}
+
+#details_tab .channel_page_section {
+  border-top: 1px solid var(--border-dim) !important;
+}
+
+button.c-reaction { 
+  background-color: #222326;
+  border-top-color: #41403f;
+  border-right-color: #41403f;
+  border-bottom-color: #41403f;
+  border-left-color: #41403f;
+}
+span.emoji {
+  text-shadow: none !important;
+  color: transparent !important;
+  -webkit-filter: drop-shadow( 1px  0 0 var(--background-dark))
+                  drop-shadow(-1px  0 0 var(--background-dark))
+                  drop-shadow(-0  1px 0 var(--background-dark))
+                  drop-shadow( 0 -1px 0 var(--background-bright)) !important
+}
+.emoji-sizer{
+  -webkit-filter: drop-shadow( 1px  0 0 var(--background-dark))
+  drop-shadow(-1px  0 0 var(--background-dark))
+  drop-shadow(-0  1px 0 var(--background-dark))
+  drop-shadow( 0 -1px 0 var(--background-bright)) !important
+}
+
+.tab_complete_ui, .tab_complete_ui_header {
+  background-color: #2d3139 !important
+}
+
+/********************************************************************************************/
+/* End customizations by jpdillingham                                                       */
+/********************************************************************************************/
+
 :root {
    /* Modify these to change your theme colors: */
    --primary: #09F;
@@ -830,7 +1004,7 @@ ts-thread .view_all_replies_container:hover {
 }
 .unread_group_header button {
    color: var(--text-special);
-},
+}
 
 
 /* scroller for threads & unreads */
