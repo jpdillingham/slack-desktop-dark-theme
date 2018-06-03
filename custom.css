@@ -1161,6 +1161,16 @@ span.emoji {
   background: var(--background-elevated);
 }
 
+/* greentext */
+blockquote.c-mrkdwn__quote:before {
+  background: transparent !important;
+  content: '>';
+}
+
+blockquote.c-mrkdwn__quote {
+  color: green;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
