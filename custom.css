@@ -1171,6 +1171,12 @@ blockquote.c-mrkdwn__quote {
   color: green;
 }
 
+/* mention badge */
+.p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions {
+  background: #a12d3d !important;
+  border: 0px !important;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
