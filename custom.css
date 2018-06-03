@@ -1152,6 +1152,15 @@ span.emoji {
   background-color: #2d3139 !important
 }
 
+.c-message_list__unread_divider__separator {
+  border-color: var(--primary);
+}
+
+.c-message_list__unread_divider__label {
+  color: var(--primary);
+  background: var(--background-elevated);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
