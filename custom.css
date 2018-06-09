@@ -1219,7 +1219,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 /* thread reply bar */
-.c-message__reply_bar:hover
+.c-message__reply_bar:hover, .c-message__reply_bar_view_thread
 {
   background-color: var(--background-elevated) !important;
 }
