@@ -1015,16 +1015,16 @@ ts-jumper ts-jumper-container {
 }
 
 .c-mrkdwn__code {
-  color: #d72b3f !important
+  color: var(--text) !important
 }
 
 .flex_content_scroller {
-  background-color: #23272f !important;
+  background-color: var(--background) !important;
 }
 
 #msg_input, 
 #primary_file_button {
-  border-color: #2d3139 !important;
+  border-color: var(--border-dim) !important;
 }
 
 div.c-message.c-message--light.c-message--hover {
