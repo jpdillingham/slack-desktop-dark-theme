@@ -1129,10 +1129,7 @@ div.client_channels_list_container {
 
 button.c-reaction { 
   background-color: var(--background);
-  border-top-color: #41403f;
-  border-right-color: #41403f;
-  border-bottom-color: #41403f;
-  border-left-color: #41403f;
+  border: 1px solid var(--border-dim);
 }
 span.emoji {
   text-shadow: none !important;
