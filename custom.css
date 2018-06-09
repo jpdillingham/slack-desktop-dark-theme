@@ -1242,7 +1242,7 @@ blockquote.c-mrkdwn__quote {
 .channel_page_member_row:hover {
   background-color: var(--selected);
   border: 1px solid var(--border-dim);
-  border-radius: none;
+  border-radius: 0;
 }
 
 /********************************************************************************************/
