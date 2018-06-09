@@ -1248,7 +1248,11 @@ blockquote.c-mrkdwn__quote {
 /* box that shows up at the top of channels when you've got unread msgs */
 .p-degraded_list__loading {
   color: var(--text);
-  background:var(--background);
+  background: var(--background);
+}
+
+.p-message_pane {
+  background: var(--background);
 }
 
 /********************************************************************************************/
