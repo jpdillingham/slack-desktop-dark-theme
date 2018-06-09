@@ -1227,11 +1227,7 @@ blockquote.c-mrkdwn__quote {
   background-color: var(--background-elevated) !important;
 }
 
-.c-message__reply_bar:hover, 
-.c-message__reply_bar_view_thread,
-{
-  background-color: var(--background-elevated) !important;
-}
+
 
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
