@@ -1222,9 +1222,13 @@ blockquote.c-mrkdwn__quote {
 .c-message__reply_bar--focus .c-message__reply_bar_view_thread,
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread 
 {
-  background-color:  var(--background-elevated) !important;
+  background-color: var(--background-elevated) !important;
 }
 
+.c-message_reply_bar--focus,
+.c-message__reply_bar:hover {
+  background-color: var(--background-elevated) !important;
+}
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
