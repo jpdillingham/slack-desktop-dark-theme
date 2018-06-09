@@ -1190,9 +1190,15 @@ blockquote.c-mrkdwn__quote {
 /* user time zone */
 #details_tab .conversation_details .member_info_timezone {
   border-top: 1px solid var(--border-dim);
+  color: var(--text) !important;
 }
 
 /* directory names */
+.c-unified_member__display-name--large, .c-unified_member__title--large {
+  color: var(--text) !important;
+}
+
+/* about this conversation name/tag text */
 .c-unified_member__display-name--large, .c-unified_member__title--large {
   color: var(--text) !important;
 }
