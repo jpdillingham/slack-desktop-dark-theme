@@ -1128,7 +1128,7 @@ div.client_channels_list_container {
 }
 
 button.c-reaction { 
-  background-color: #222326;
+  background-color: var(--background);
   border-top-color: #41403f;
   border-right-color: #41403f;
   border-bottom-color: #41403f;
