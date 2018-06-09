@@ -1203,6 +1203,11 @@ blockquote.c-mrkdwn__quote {
   color: var(--text) !important;
 }
 
+/* see all members button */
+#see_all_members {
+  border: 1px solid var(--border-dim);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
