@@ -1018,7 +1018,7 @@ ts-jumper ts-jumper-container {
 }
 
 .flex_content_scroller {
-  background-color: #2f516d !important;
+  background-color: #23272f !important;
 }
 
 #msg_input, 
@@ -1175,6 +1175,11 @@ blockquote.c-mrkdwn__quote {
 .p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions {
   background: #a12d3d !important;
   border: 0px !important;
+}
+
+/* channel scrollbar */
+.c-scrollbar__bar {
+  background: var(--background);
 }
 
 /********************************************************************************************/
