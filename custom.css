@@ -1245,6 +1245,12 @@ blockquote.c-mrkdwn__quote {
   border-radius: 0;
 }
 
+/* box that shows up at the top of channels when you've got unread msgs */
+.p-degraded_list__loading {
+  color: var(--text);
+  background:var(--background);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
