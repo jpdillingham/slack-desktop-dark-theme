@@ -1234,6 +1234,11 @@ blockquote.c-mrkdwn__quote {
   border: 1px solid var(--border-dim);
 }
 
+/* thread reply divider */
+#convo_container .convo_flexpane_divider, #file_preview_scroller .convo_flexpane_divider {
+  border-top: 1px solid var(--border-dim);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
