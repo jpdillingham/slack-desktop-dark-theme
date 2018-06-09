@@ -1215,8 +1215,7 @@ blockquote.c-mrkdwn__quote {
 
 /* call icon */
 .channel_calls_button .call_icon.call_window_offline {
-  color: var(--icon);
-  cursor: default;
+  color: var(--icon) !important;
 }
 
 /********************************************************************************************/
