@@ -1208,6 +1208,10 @@ blockquote.c-mrkdwn__quote {
   border: 1px solid var(--border-dim);
 }
 
+.btn_outline::after {
+  border: 1px solid var(--border-dim);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
