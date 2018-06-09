@@ -1008,7 +1008,7 @@ ts-jumper ts-jumper-container {
 .p-channel_sidebar__channel--selected:hover, 
 .p-channel_sidebar__link--selected:hover, 
 .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
-  background: #204461 !important;
+  background: var(--selected) !important;
 }
 
 .p-channel_sidebar__channel, 
