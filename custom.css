@@ -156,6 +156,7 @@ ts-jumper input[type="text"],
 
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
+  background: var(--selected) !important;
    border: solid var(--border-dim);
    border-width: 1px 1px 1px 0;
 }
@@ -995,6 +996,7 @@ ts-jumper ts-jumper-container {
   --border-bright: #23272f;
   --border-dim: #2d3139;
   --scrollbar-border: #23272f;
+  --selected: #6698C8;
 }
 
 .p-channel_sidebar__channel--selected, 
