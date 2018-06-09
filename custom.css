@@ -1238,6 +1238,13 @@ blockquote.c-mrkdwn__quote {
   border-top: 1px solid var(--border-dim);
 }
 
+/* member name hover */
+.channel_page_member_row:hover {
+  background-color: var(--selected);
+  border: 1px solid var(--border-dim);
+  border-radius: none;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
