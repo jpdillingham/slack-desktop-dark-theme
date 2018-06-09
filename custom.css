@@ -1229,6 +1229,11 @@ blockquote.c-mrkdwn__quote {
   background-color: var(--background-elevated) !important;
 }
 
+/* thread reply box */
+.inline_message_input_container .texty_legacy {
+  border: 1px solid var(--border-dim);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
