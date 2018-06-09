@@ -1218,6 +1218,17 @@ blockquote.c-mrkdwn__quote {
   color: var(--icon) !important;
 }
 
+/* thread reply bar */
+.c-message__reply_bar:hover
+{
+  background-color: var(--background-elevated) !important;
+}
+
+.c-message__reply_bar--focus .c-message__reply_bar_view_thread, .c-message__reply_bar:hover .c-message__reply_bar_view_thread {
+  opacity: 1;
+  background-color: var(--background-elevated) !important;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
