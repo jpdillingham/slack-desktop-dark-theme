@@ -20,6 +20,7 @@ limitations under the License.
    --text: #DDD;
    --background: #111;
    --background-elevated: #222;
+   --icon: #717274;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
@@ -1210,6 +1211,12 @@ blockquote.c-mrkdwn__quote {
 
 .btn_outline::after {
   border: 1px solid var(--border-dim);
+}
+
+/* call icon */
+.channel_calls_button .call_icon.call_window_offline {
+  color: var(--icon);
+  cursor: default;
 }
 
 /********************************************************************************************/
