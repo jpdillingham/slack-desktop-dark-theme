@@ -1259,6 +1259,11 @@ blockquote.c-mrkdwn__quote {
   background: var(--background);
 }
 
+.p-message_pane__limited_history_foreword {
+  color: var(--text);
+  background-color: var(--background);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
