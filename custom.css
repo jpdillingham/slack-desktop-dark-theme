@@ -1264,6 +1264,23 @@ blockquote.c-mrkdwn__quote {
   background-color: var(--background);
 }
 
+/* code snippets */
+.c-snippet__code .CodeMirror-code>div:before {
+  border-right: 1px solid var(--border-dim);
+  background-color: var(--background-elevated);
+  color: var(--text);
+}
+
+.CodeMirror-code {
+  background-color: var(--background-elevated);
+}
+.c-file_container {
+  background: var(--background-elevated);
+}
+.c-file_container--gradient:after {
+  background: linear-gradient(180deg,hsla(0,0%,100%,0),var(--background));
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
