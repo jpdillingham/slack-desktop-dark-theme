@@ -1265,7 +1265,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 .c-scrollbar__hider:before {
-  box-shadow: 0 32px #000 !important;
+  box-shadow: 0 32px var(--background) !important;
 }
 
 /* code snippets */
