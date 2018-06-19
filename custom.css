@@ -1179,7 +1179,7 @@ blockquote.c-mrkdwn__quote {
 
 /* channel scrollbar */
 .c-scrollbar__bar {
-  background: var(--background);
+  background: var(--background-elevated);
 }
 
 /* search form */
