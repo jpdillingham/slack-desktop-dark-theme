@@ -1239,6 +1239,10 @@ blockquote.c-mrkdwn__quote {
   border-color: var(--border-dim);
 }
 
+.dense_theme #reply_container.upload_in_threads .inline_message_input_container, .dense_theme #reply_container.upload_in_threads .reply_container_info, .light_theme #reply_container.upload_in_threads .inline_message_input_container, .light_theme #reply_container.upload_in_threads .reply_container_info {
+  border-color: var(--border-dim);
+}
+
 /* thread reply divider */
 #convo_container .convo_flexpane_divider, #file_preview_scroller .convo_flexpane_divider {
   border-top: 1px solid var(--border-dim);
