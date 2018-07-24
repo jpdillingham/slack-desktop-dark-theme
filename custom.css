@@ -1243,6 +1243,11 @@ blockquote.c-mrkdwn__quote {
   border-color: var(--border-dim);
 }
 
+#convo_tab .inline_message_input_container.with_file_upload .message_input {
+  background-color: var(--background);
+  margin-left: 35px;
+}
+
 /* thread reply divider */
 #convo_container .convo_flexpane_divider, #file_preview_scroller .convo_flexpane_divider {
   border-top: 1px solid var(--border-dim);
