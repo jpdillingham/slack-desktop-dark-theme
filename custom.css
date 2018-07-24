@@ -1230,6 +1230,7 @@ blockquote.c-mrkdwn__quote {
 
 /* thread reply box */
 .inline_message_input_container .texty_legacy {
+  background-color: var(--background-elevated) !important;
   border: 1px solid var(--border-dim);
 }
 
