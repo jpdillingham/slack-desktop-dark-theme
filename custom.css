@@ -1179,7 +1179,7 @@ blockquote.c-mrkdwn__quote {
 
 /* channel scrollbar */
 .c-scrollbar__bar {
-  background: var(--background);
+  background: var(--background-elevated);
 }
 
 /* search form */
@@ -1263,6 +1263,10 @@ blockquote.c-mrkdwn__quote {
 .p-message_pane__limited_history_foreword {
   color: var(--text);
   background-color: var(--background);
+}
+
+.c-scrollbar__hider:before {
+  box-shadow: 0 32px var(--background) !important;
 }
 
 /* code snippets */
