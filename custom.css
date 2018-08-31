@@ -636,7 +636,8 @@ ts-mention.ts_tip:hover
 
 .p-emoji_picker__list_container,
 .p-emoji_picker__footer,
-.p-emoji_picker__heading {
+.p-emoji_picker__heading,
+.p-emoji_picker__input_container {
   background: var(--background);
 }
 
