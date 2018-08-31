@@ -213,7 +213,9 @@ li.active[class] span,
   color: inherit !important;
 }
 
-#client_body::before, #client_body:not(.onboarding):before {
+#client_body::before, 
+#client_body:not(.onboarding):before,
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
   border-bottom: 1px solid var(--border-dim) !important;
   background: var(--background);
   box-shadow: none;
