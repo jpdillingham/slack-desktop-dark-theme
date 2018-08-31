@@ -1326,6 +1326,14 @@ blockquote.c-mrkdwn__quote {
   background: var(--background);
 }
 
+/* channel notification prefs */
+.channel_prefs__muting_checkbox_label:not(.subtle_silver),
+.channel_prefs_notifications_table__small_cell,
+.channel_prefs_body__section_header_title,
+.channel_prefs_notifications_table__row_title {
+  color: var(--text) !important;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
