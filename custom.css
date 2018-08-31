@@ -626,6 +626,24 @@ ts-mention.ts_tip:hover
    border-bottom-width: 2px;
 }
 
+.c-menu.p-emoji_picker {
+  background-color: var(--background);
+  color: var(--text-special);
+  border-color: var(--border-bright);
+  border-width: 1px 1px 2px 1px;
+  border-style: solid;
+}
+
+.p-emoji_picker__list_container,
+.p-emoji_picker__footer,
+.p-emoji_picker__heading {
+  background: var(--background);
+}
+
+.p-emoji_picker__group_tab--active {
+  background: var(--background-hover);
+}
+
 .menu .p-emoji_picker__group_tab--active {
    background-color: var(--background);
    color: var(--text-special);
