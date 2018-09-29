@@ -1334,6 +1334,17 @@ blockquote.c-mrkdwn__quote {
   color: var(--text) !important;
 }
 
+/* message editor */
+.c-message--highlight, .c-message--highlight_yellow_bg {
+  background: var(--background-hover);
+}
+
+.c-message__editor__input {
+  background: var(--background-elevated);
+  border: 1px solid var(--border-bright);
+  color: var(--text);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
