@@ -1345,6 +1345,12 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+/* threads */
+#threads_msgs .inline_message_input_container.with_file_upload {
+  border-color: var(--border-dim);
+  background: var(--background);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
