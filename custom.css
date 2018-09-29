@@ -1352,11 +1352,21 @@ blockquote.c-mrkdwn__quote {
 }
 
 /* channel browser */
-#channel_browser {
+#channel_browser .channel_browser_row_header {
   color: var(--text);
 }
 
 .sk_black {
+  color: var(--text);
+}
+
+#channel_browser .channel_browser_divider {
+  color: var(--text);
+  background: var(--background-elevated);
+}
+
+#channel_browser .channel_browser_row {
+  border-top: 1px solid var(--border-dim);
   color: var(--text);
 }
 
