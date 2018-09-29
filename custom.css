@@ -1351,6 +1351,15 @@ blockquote.c-mrkdwn__quote {
   background: var(--background);
 }
 
+/* channel browser */
+#channel_browser {
+  color: var(--text);
+}
+
+.sk_black {
+  color: var(--text);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
