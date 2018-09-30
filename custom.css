@@ -83,7 +83,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link:visited,
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover {
-   color: var(--text) !important;
+   /* color: var(--text) !important; */
 }
 
 /* Channel with unread messages */
@@ -1375,6 +1375,11 @@ blockquote.c-mrkdwn__quote {
 .channel_browser_row:hover {
   background: var(--background-hover);
   border: 1px solid var(--border-bright);
+}
+
+/* preferences */
+.sidebar_menu_list_item {
+  color: var(--text);
 }
 
 /********************************************************************************************/
