@@ -1389,8 +1389,8 @@ blockquote.c-mrkdwn__quote {
 
 /* archives banner */
 .p-archives_banner {
-  background: var(--background-elevated);
-  color: var(--text-special);
+  background: var(--primary);
+  color: var(--text-bright);
 }
 
 /********************************************************************************************/
