@@ -1370,6 +1370,13 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+#channel_browser
+#channel_list_container:not(.keyboard_active).not_scrolling
+.channel_browser_row:hover {
+  background: var(--background-hover);
+  border: 1px solid var(--border-bright);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
