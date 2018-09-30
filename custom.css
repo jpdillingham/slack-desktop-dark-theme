@@ -1382,6 +1382,11 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+/* channel details */
+.channel_purpose_section .channel_purpose_text {
+  color: var(--text);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
