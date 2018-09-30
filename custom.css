@@ -83,7 +83,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link:visited,
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover {
-   /* color: var(--text) !important; */
+   color: var(--text) !important; 
 }
 
 /* Channel with unread messages */
