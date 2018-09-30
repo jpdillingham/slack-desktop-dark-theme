@@ -1387,6 +1387,12 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+/* archives banner */
+.p-archives_banner {
+  background: var(--background-elevated);
+  color: var(--text-special);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
