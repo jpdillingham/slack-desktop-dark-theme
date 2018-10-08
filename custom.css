@@ -1389,7 +1389,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 /* channel details */
-.channel_purpose_section .channel_purpose_text {
+#details_tab .feature_sli_channel_insights .channel_created_section .creator_link, #details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
   color: var(--text);
 }
 
@@ -1402,6 +1402,11 @@ blockquote.c-mrkdwn__quote {
 /* message placeholder */
 #msg_input.texty_legacy .ql-placeholder {
   color: var(--text);
+}
+
+/* shared files */
+#client-ui .file_list_item.file_list_item--redesign {
+  border: 1px solid var(--border-dim);
 }
 
 /********************************************************************************************/
