@@ -1097,24 +1097,30 @@ pre.special_formatting {
 a.c-member_slug.c-member_slug--link, 
 button.c-mrkdwn__subteam, 
 .c-member_slug--mention, .c-member_slug {
-  color: #61AFEF !important; 
-  background-color: #212b2f !important;
+  color: var(--primary) !important; 
+  background-color: var(--background) !important;
 }
 
 .c-member_slug--mention, .c-member_slug--mention:hover {
-  color: #61AFEF !important; 
-  background-color: #212b2f !important;
+  color: var(--primary) !important; 
+  background-color: var(--background) !important;
 }
 
 .c-member_slug--link, .c-member_slug--link:hover {
-  color: #61AFEF !important; 
-  background-color: #212b2f !important;
+  color: var(--primary) !important; 
+  background-color: var(--background) !important;
+}
+
+/* @channel and @here */
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
+  color: var(--primary) !important; 
+  background-color: var(--background) !important;
 }
 
 /* @subteam mentions */
 button.c-mrkdwn__subteam {
-
-  background-color: #212b2f !important;
+  color: var(--primary) !important; 
+  background-color: var(--background) !important;
 }
 
 /* member name display */
