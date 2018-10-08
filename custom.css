@@ -627,7 +627,7 @@ ts-mention.ts_tip:hover
 }
 
 .c-menu.p-emoji_picker {
-  background-color: var(--background);
+  background-color: var(--background-elevated);
   color: var(--text-special);
   border-color: var(--border-bright);
   border-width: 1px 1px 2px 1px;
@@ -638,7 +638,7 @@ ts-mention.ts_tip:hover
 .p-emoji_picker__footer,
 .p-emoji_picker__heading,
 .p-emoji_picker__input_container {
-  background: var(--background);
+  background: var(--background-elevated);
 }
 
 .p-emoji_picker__group_tab--active {
@@ -646,7 +646,7 @@ ts-mention.ts_tip:hover
 }
 
 .menu .p-emoji_picker__group_tab--active {
-   background-color: var(--background);
+   background-color: var(--background-elevated);
    color: var(--text-special);
    border-color: var(--border-bright);
    border-width: 1px 1px 2px 1px;
