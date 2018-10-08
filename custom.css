@@ -1393,6 +1393,11 @@ blockquote.c-mrkdwn__quote {
   color: var(--text-bright);
 }
 
+/* message placeholder */
+#msg_input.texty_legacy .ql-placeholder {
+  color: var(--text);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
