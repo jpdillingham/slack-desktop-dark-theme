@@ -1437,7 +1437,7 @@ blockquote.c-mrkdwn__quote {
 /* typing notification */
 .p-notification_bar__section {
   color: var(--text);
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 /********************************************************************************************/
