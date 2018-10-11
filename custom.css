@@ -1426,6 +1426,11 @@ blockquote.c-mrkdwn__quote {
   color: var(--primary);
 }
 
+/* download link overlay */
+.c-file__slide--meta {
+  background: var(--background);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
