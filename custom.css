@@ -1434,6 +1434,12 @@ blockquote.c-mrkdwn__quote {
   background: var(--background);
 }
 
+/* typing notification */
+.p-notification_bar__section {
+  color: var(--text);
+  opacity: 0.9;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
