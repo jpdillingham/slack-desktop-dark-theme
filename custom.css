@@ -1411,6 +1411,21 @@ blockquote.c-mrkdwn__quote {
   border: 1px solid var(--border-dim);
 }
 
+/* shared text file preview text */
+#client-ui .file_comment_item .monospace, 
+#client-ui .file_list_item .monospace, 
+#client-ui .star_item ts-message .monospace, 
+#files_list .file_comment_item .monospace, 
+#files_list .file_list_item .monospace, 
+#files_list .star_item ts-message .monospace {
+  color: var(--text);
+}
+
+/* shared file title (in channel) */
+.c-file__title {
+  color: var(--primary);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
