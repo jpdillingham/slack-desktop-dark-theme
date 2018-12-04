@@ -1349,7 +1349,7 @@ blockquote.c-mrkdwn__quote {
   background: var(--background);
 }
 
-.c-message__editor__input--legacy.focus {
+.c-message__editor__input--legacy, .c-message__editor__input--legacy.focus {
   background-color: var(--background);
 }
 
