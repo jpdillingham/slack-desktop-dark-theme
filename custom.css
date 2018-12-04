@@ -1346,7 +1346,11 @@ blockquote.c-mrkdwn__quote {
 
 /* message editor */
 .c-message--highlight, .c-message--highlight_yellow_bg {
-  background: var(--background-hover);
+  background: var(--background);
+}
+
+.c-message__editor__input--legacy.focus {
+  background-color: var(--background);
 }
 
 .c-message__editor__input {
