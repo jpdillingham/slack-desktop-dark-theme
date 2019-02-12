@@ -1056,10 +1056,10 @@ div.c-message.c-message--light.c-message--hover {
   background-color: #282C34 !important;
 }
 
-/* channel background */
+/* channel background 
 div.c-virtual_list__scroll_container {
   background-color: var(--background) !important;
-}
+} */
 
 /* channel details panel */
 #channel_page_scroller {
@@ -1445,6 +1445,7 @@ blockquote.c-mrkdwn__quote {
 
 .p-flexpane_header {
   background: var(--background-elevated);
+  border-bottom: unset;
 }
 
 .p-threads_flexpane__header_channel_name {
