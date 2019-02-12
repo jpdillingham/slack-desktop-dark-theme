@@ -1437,6 +1437,20 @@ blockquote.c-mrkdwn__quote {
 .c-file__slide--meta {
   background: var(--background);
 }
+
+/* threads */
+.p-threads_flexpane, .p-threads_flexpane__separator_count {
+  color: var(--text);
+}
+
+.p-flexpane_header {
+  background: var(--background-elevated);
+}
+
+.p-threads_flexpane__header_channel_name {
+  color: unset;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
