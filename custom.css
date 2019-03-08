@@ -1472,6 +1472,19 @@ blockquote.c-mrkdwn__quote {
   border: unset;
 }
 
+/* new reactions ~3/19 */
+.c-reaction--reacted.c-reaction--feature_new_reactions {
+  background: var(--background);
+}
+
+.c-reaction--reacted.c-reaction--feature_new_reactions:not(.c-button--focus-visible), .c-reaction--reacted.c-reaction--feature_new_reactions:not(.focus-ring) {
+  box-shadow: inset 0 0 0 1px var(--border-bright);
+}
+
+.c-reaction_add--feature_new_reactions {
+  background: var(--background-hover);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
