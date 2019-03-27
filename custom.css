@@ -1553,6 +1553,35 @@ blockquote.c-mrkdwn__quote {
   border-bottom: 1px solid var(--background-hover);
 }
 
+.c-search__extras {
+  color: var(--text);
+}
+
+.p-search_filter__title_text {
+  color: var(--text);
+  background-color: var(--background-elevated);
+}
+
+.p-search_filter__date {
+  color: var(--text);
+}
+
+.p-search_filter__title:before {
+  border-bottom: 1px solid var(--background-hover);
+}
+
+.c-tabs__tab_menu {
+  box-shadow: inset 0 -1px 0 0 var(--background-hover);
+}
+
+.c-pillow_file_container {
+  background: var(--background);
+}
+
+.c-search__view .p-search_file .c-pillow_file__title {
+  color: var(--text);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
