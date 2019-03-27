@@ -18,7 +18,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #09F;
    --text: #DDD;
-   --background: #111;
+   --background: var();
    --background-elevated: #222;
    --icon: #717274;
 
@@ -35,6 +35,10 @@ limitations under the License.
 
    --scrollbar-background: #000;
    --scrollbar-border: var(--primary);
+}
+
+body {
+  background: var(--background);
 }
 
 h1, h2, h3, h4 {
