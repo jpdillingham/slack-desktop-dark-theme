@@ -1582,6 +1582,16 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+.p-search_filter .p-file_list__file_type_select, .p-search_filter__select .c-input_select {
+  border-color: var(--background-hover);
+  background: var(--background-elevated);
+  color: var(--text);
+}
+
+.p-file_list__file_type_select .c-input_select__selected_value--placeholder {
+  color: var(--text);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
