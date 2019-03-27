@@ -1530,6 +1530,29 @@ blockquote.c-mrkdwn__quote {
   background-color: var(--background);
 }
 
+.c-search_message__body {
+  color: var(--text);
+}
+
+.c-search_message__attachment_body {
+  color: #7c7b7b;
+}
+
+.p-message_limit_banner {
+  color: var(--text);
+  background-color: var(--background-hover);
+  border: 1px solid var(--border-dim);
+}
+
+.p-search_filter__dates {
+  background-color: var(--background-elevated);
+  border: 1px solid var(--background-hover);
+}
+
+.p-search_filter__date:first-child {
+  border-bottom: 1px solid var(--background-hover);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
