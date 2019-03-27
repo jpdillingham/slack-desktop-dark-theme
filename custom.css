@@ -1601,6 +1601,10 @@ blockquote.c-mrkdwn__quote {
   background: linear-gradient(0deg,var(--background),hsla(0,0%,100%,0) 40px);
 }
 
+.c-message_kit__file__meta {
+  color: var(--icon);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
