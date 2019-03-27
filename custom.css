@@ -1485,6 +1485,17 @@ blockquote.c-mrkdwn__quote {
   background: var(--background-hover);
 }
 
+/* search bar */
+.search_focused .search_form {
+  border-color: var(--border-dim);
+}
+
+.texty_legacy .ql-editor.ql-blank~.ql-placeholder {
+  display: block;
+  color: var(--text);
+  opacity: .15 !important;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
