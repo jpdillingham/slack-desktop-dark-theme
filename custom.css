@@ -1615,6 +1615,17 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+/* scrollbar */
+#client-ui .monkey_scroll_handle_inner {
+  border: var(--background);
+  background: var(--background);
+}
+
+#client-ui .monkey_scroll_bar {
+  background: var(--background);
+  border: 0px;
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
