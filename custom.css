@@ -1617,8 +1617,8 @@ blockquote.c-mrkdwn__quote {
 
 /* scrollbar */
 #client-ui .monkey_scroll_handle_inner {
-  border: var(--background);
-  background: var(--background);
+  border: var(--background-elevated);
+  background: var(--background-elevated);
 }
 
 #client-ui .monkey_scroll_bar {
