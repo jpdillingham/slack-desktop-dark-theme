@@ -1659,10 +1659,12 @@ blockquote.c-mrkdwn__quote {
 
 .p-threads_footer__input--legacy .p-message_input_file_button {
   background: var(--background-elevated);
+  border: 1px solid var(--background-hover);
+  color: var(--text);
 }
 
-.p-threads_footer__input--legacy .p-message_input_file_button {
-  border: 1px solid var(--background-hover);
+.c-texty_input__button {
+  color: var(--text);
 }
 
 /********************************************************************************************/
