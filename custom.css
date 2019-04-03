@@ -1618,11 +1618,11 @@ blockquote.c-mrkdwn__quote {
 
 /* thread view */
 .p-threads_view {
-  background: var(--background-elevated);
+  background: var(--background);
 }
 
 .p-threads_view__default_background {
-  background: var(--background);
+  background: var(--background-elevated);
 }
 
 .p-threads_view__footer {
@@ -1635,6 +1635,15 @@ blockquote.c-mrkdwn__quote {
 
 .p-threads_view_reply {
   border: 1px solid var(--border-bright);
+}
+
+.c-channel_name {
+  color: var(--text-special);
+}
+
+.p-threads_view__divider_label {
+  background: var(--background-elevated);
+  color: var(--text);
 }
 
 /********************************************************************************************/
