@@ -1637,15 +1637,15 @@ blockquote.c-mrkdwn__quote {
 }
 
 .p-threads_view__footer {
-  border: 1px solid var(--border-bright);
+  border: 1px solid var(--border-dim);
 }
 
 .p-threads_view_root {
-  border: 1px solid var(--border-bright);
+  border: 1px solid var(--border-dim);
 }
 
 .p-threads_view_reply {
-  border: 1px solid var(--border-bright);
+  border: 1px solid var(--border-dim);
 }
 
 .c-channel_name {
