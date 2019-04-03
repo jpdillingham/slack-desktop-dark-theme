@@ -1616,6 +1616,17 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+/* scrollbar */
+#client-ui .monkey_scroll_handle_inner {
+  border: var(--background-elevated);
+  background: var(--background-elevated);
+}
+
+#client-ui .monkey_scroll_bar {
+  background: var(--background);
+  border: 0px;
+}
+
 /* thread view */
 .p-threads_view {
   background: var(--background);
