@@ -1661,6 +1661,10 @@ blockquote.c-mrkdwn__quote {
   background: var(--background-elevated);
 }
 
+.p-threads_footer__input--legacy .p-message_input_file_button {
+  border: 1px solid var(--background-hover);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
