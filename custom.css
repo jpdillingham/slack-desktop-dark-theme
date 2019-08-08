@@ -1692,6 +1692,14 @@ blockquote.c-mrkdwn__quote {
   background: var(--background);
 }
 
+.p-classic_nav__model__button--active {
+  color: var(--icon);
+}
+
+.p-classic_nav__model__button {
+  color: var(--icon);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
