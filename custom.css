@@ -1667,6 +1667,15 @@ blockquote.c-mrkdwn__quote {
   color: var(--text);
 }
 
+/* 4.x fixes */
+.p-workspace {
+  background-color: var(--background);
+}
+
+.p-workspace__input .p-message_input_field {
+  background: var(--background);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
