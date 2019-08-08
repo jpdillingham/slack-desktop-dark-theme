@@ -1449,7 +1449,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 .p-flexpane_header {
-  background: var(--background-elevated);
+  background: var(--background);
   border-bottom: unset;
 }
 
@@ -1693,11 +1693,23 @@ blockquote.c-mrkdwn__quote {
 }
 
 .p-classic_nav__model__button--active {
-  color: var(--icon);
+  color: var(--background-hover);
 }
 
 .p-classic_nav__model__button {
-  color: var(--icon);
+  color: var(--background-hover);
+}
+
+.p-classic_nav__right__button {
+  color: var(--background-hover);
+}
+
+.p-classic_nav__right__search__icon {
+  color: var(--background-hover);
+}
+
+.p-classic_nav__right__search {
+  border: 1px solid var(--background-hover);
 }
 
 /********************************************************************************************/
