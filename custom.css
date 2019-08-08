@@ -1674,6 +1674,7 @@ blockquote.c-mrkdwn__quote {
 
 .p-workspace__input .p-message_input_field {
   background: var(--background);
+  border-color: var(--background-elevated);
 }
 
 .p-classic_nav__team_header {
@@ -1718,6 +1719,10 @@ blockquote.c-mrkdwn__quote {
 
 .p-workspace--classic-nav .p-workspace__secondary_view {
   border-left: 1px solid var(--background-elevated);
+}
+
+.p-workspace__input .p-message_input_field.focus {
+  border-color: var(--background-elevated);
 }
 
 /********************************************************************************************/
