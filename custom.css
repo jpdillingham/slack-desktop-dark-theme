@@ -1688,6 +1688,10 @@ blockquote.c-mrkdwn__quote {
   box-shadow: 0 0 0 3px rgb(28,42,57), 0 0 0 6px var(--background-hover);
 }
 
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+  background: var(--background);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
