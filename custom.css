@@ -1677,7 +1677,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 .p-classic_nav__team_header {
-  background: var(--background-elevated);
+  background: var(--background-elevated) !important;
 }
 
 .p-team_sidebar, .p-team_sidebar--frameless::before {
@@ -1685,7 +1685,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 .p-team_sidebar__icon--active, .p-team_sidebar__icon--active:hover {
-  box-shadow: 0 0 0 3px rgb(28,42,57), 0 0 0 6px var(--background-hover);
+  box-shadow: 0 0 0 3px rgb(28,42,57), 0 0 0 6px var(--background-hover) !important;
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
