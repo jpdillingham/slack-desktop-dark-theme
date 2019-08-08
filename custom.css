@@ -1722,7 +1722,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 .p-workspace__input .p-message_input_field.focus {
-  border-color: var(--background-elevated);
+  border-color: var(--background-elevated) !important;
 }
 
 /********************************************************************************************/
