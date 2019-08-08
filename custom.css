@@ -1681,7 +1681,7 @@ blockquote.c-mrkdwn__quote {
 }
 
 .p-team_sidebar, .p-team_sidebar--frameless::before {
-  background: var(--background);
+  background: var(--background) !important;
 }
 
 .p-team_sidebar__icon--active, .p-team_sidebar__icon--active:hover {
@@ -1714,6 +1714,10 @@ blockquote.c-mrkdwn__quote {
 
 .p-classic_nav__right__search__placeholder {
   color: var(--icon);
+}
+
+.p-workspace--classic-nav .p-workspace__secondary_view {
+  border-left: 1px solid var(--background-elevated);
 }
 
 /********************************************************************************************/
