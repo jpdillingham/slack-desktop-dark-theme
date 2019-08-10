@@ -1725,6 +1725,19 @@ blockquote.c-mrkdwn__quote {
   border-color: var(--background-elevated) !important;
 }
 
+.p-channel_details__dm_section__tz_label {
+  color: var(--text);
+}
+
+.p-channel_details__heading {
+  color: var(--text);
+}
+
+.c-fullscreen_modal__body {
+  color: var(--text);
+  background-color: var(--background);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
