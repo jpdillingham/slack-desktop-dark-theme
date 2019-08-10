@@ -1762,6 +1762,14 @@ blockquote.c-mrkdwn__quote {
   color: var(--icon);
 }
 
+.p-workspace__input .p-message_input_field.focus~.p-message_input_file_button:not(:hover) {
+  color: var(--icon);
+}
+
+.p-workspace__input .p-message_input_file_button {
+  color: var(--icon);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
