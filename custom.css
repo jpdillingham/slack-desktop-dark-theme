@@ -1738,6 +1738,18 @@ blockquote.c-mrkdwn__quote {
   background-color: var(--background);
 }
 
+.p-channel_details__created_link, 
+.p-channel_details__created_link:hover,
+.c-unified_member__secondary-name--medium,
+.p-classic_nav__model__title__info {
+  color: unset;
+}
+
+.c-button--outline {
+  background: var(--background-elevated);
+  color: var(--text);
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
