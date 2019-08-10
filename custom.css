@@ -1664,11 +1664,11 @@ blockquote.c-mrkdwn__quote {
 }
 
 .c-texty_input__button {
-  color: var(--text);
+  color: var(--icon);
 }
 
 .c-texty_input.focus .c-texty_input__button {
-  color: var(--text);
+  color: var(--icon);
 }
 
 /* 4.x fixes */
