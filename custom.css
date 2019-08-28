@@ -1778,6 +1778,12 @@ blockquote.c-mrkdwn__quote {
   background: unset;
 }
 
+@media screen and (max-width: 860px) {
+  .p-workspace--context-pane-expanded {
+      grid-template-columns: 220px auto 250px;
+  }
+}
+
 /********************************************************************************************/
 /* End customizations by jpdillingham                                                       */
 /********************************************************************************************/
